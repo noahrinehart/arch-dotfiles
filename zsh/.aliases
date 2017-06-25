@@ -15,6 +15,7 @@ alias pac="pacman"
 alias we="curl http://wttr.in/94598"
 alias ba="export back=$(pwd)"
 alias ck="cd $BACK"
+alias rm="trash-put"
 
 # Functions
 
