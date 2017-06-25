@@ -20,15 +20,22 @@ My Personal Dotfiles
 ### Installation
 
 1. Clone the repo
+
 ``` git clone https://github.com/noahrinehart/dotfiles.git ```
+
 2. Change directory
+
 ``` cd dotfiles ```
+
 3. Install using [GNU Stow]
+
 ``` ./stowall.sh ```
+
 4. Or, just stow specific configs
+
 ``` stow zsh ```
 
 
 
 
-[GNU Stow] https://www.gnu.org/software/stow/
+[GNU Stow]: https://www.gnu.org/software/stow/
