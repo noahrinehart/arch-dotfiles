@@ -1,0 +1,14 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+api_key	/home/nrinehart/.config/polybar/weather	/^api_key = "cdb303de7098b26a8648a071145eece6"$/;"	v	language:Python
+bitcoin	/home/nrinehart/.config/polybar/bitcoin	/^bitcoin = r.json()$/;"	v	language:Python
+city	/home/nrinehart/.config/polybar/weather	/^city = "94598"$/;"	v	language:Python
+eth	/home/nrinehart/.config/polybar/bitcoin	/^eth = r.json()$/;"	v	language:Python
+r	/home/nrinehart/.config/polybar/bitcoin	/^r = requests.get('https:\/\/api.coinbase.com\/v2\/exchange-rates?currency=BTC')$/;"	v	language:Python
+r	/home/nrinehart/.config/polybar/bitcoin	/^r = requests.get('https:\/\/api.coinbase.com\/v2\/exchange-rates?currency=ETH')$/;"	v	language:Python
+request	/home/nrinehart/.config/polybar/weather	/^import urllib.request$/;"	i	language:Python
+requests	/home/nrinehart/.config/polybar/bitcoin	/^import requests$/;"	i	language:Python
+temp	/home/nrinehart/.config/polybar/weather	/^temp = int(float(weather["main"]["temp"]))$/;"	v	language:Python
+units	/home/nrinehart/.config/polybar/weather	/^units = "Imperial"$/;"	v	language:Python
+unit_key	/home/nrinehart/.config/polybar/weather	/^unit_key = "F"$/;"	v	language:Python
+urllib	/home/nrinehart/.config/polybar/weather	/^import urllib.request$/;"	i	language:Python
+weather	/home/nrinehart/.config/polybar/weather	/^weather = eval(str(urllib.request.urlopen($/;"	v	language:Python

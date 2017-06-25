@@ -1,0 +1,59 @@
+! Font
+Xft.antialias: true
+Xft.hinting: true
+Xft.autohint: false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+
+
+! Colors
+*background:    #2d2d2d
+*foreground:    #d3d0c8
+! Black
+*color0:        #2d2d2d
+*color8:        #747369
+! Red
+*color1:        #f2777a
+*color9:        #f2777a
+! Green
+*color2:        #99cc99
+*color10:       #99cc99
+! Yellow
+*color3:        #ffcc66
+*color11:       #ffcc66
+! Blue
+*color4:        #6699cc
+*color12:       #6699cc
+! Magenta
+*color5:        #cc99cc
+*color13:       #cc99cc
+! Cyan
+*color6:        #66cccc
+*color14:       #66cccc
+! White
+*color7:        #d3d0c8
+*color15:       #f2f0ec
+
+! Extra colors
+*color16: #f99157
+*color17: #d27b53
+*color18: #393939
+*color19: #515151
+*color20: #a09f93
+*color21: #e8e6df
+
+! URxvt
+URxvt.letterSpace: 0
+URxvt.font: xft:iosevka:size=10
+URxvt.scrollBar: false
+
+
+
+
+
+! Rofi
+rofi.color-enabled: true
+rofi.color-window: #393939, #393939, #2d2d2d
+rofi.color-normal: #393939, #d3d0c8, #393939, #393939, #f2f0ec
+rofi.color-active: #393939, #6699cc, #393939, #393939, #6699cc
+rofi.color-urgent: #393939, #f2777a, #393939, #393939, #f2777a

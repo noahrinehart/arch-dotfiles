@@ -1,0 +1,247 @@
+[colors]
+background = #2d2d2d
+background-alt = #2d2d2d
+foreground = #d3d0c8
+foreground-alt = #d3d0c8
+primary = #cc99cc
+secondary = #747369
+alert = #f2777a
+
+[bar/top]
+monitor = ${env:MONITOR}
+width = 100%
+height = 27
+fixed-center = true
+
+background = ${xrdb:color0:#fff}
+foreground = #d3d0c8
+
+line-size = 3
+line-color = #f00
+
+border-size = 10
+border-color = #00000000 ; transparent
+
+module-margin-left = 1
+module-margin-right = 1
+
+font-0 = InputMono:style=Regular:antialias=true:autohint=true:size=10
+font-1 = FontAwesome:size=10
+
+modules-left = bspwm
+modules-center = mpd 
+modules-right = weather volume eth cpu date powermenu
+
+tray-position = right
+tray-padding = 5
+
+[bar/example]
+monitor = ${env:MONITOR}
+width = 100%
+height = 27
+fixed-center = true
+
+background = #2d2d2d
+foreground = #d3d0c8
+
+line-size = 3
+line-color = #f00
+
+border-size = 10
+border-color = #00000000 ; transparent
+
+module-margin-left = 1
+module-margin-right = 1
+
+font-0 = InputMono:style=Regular:antialias=true:autohint=true:size=10
+font-1 = FontAwesome:size=10
+
+modules-left = bspwm
+modules-center = mpd 
+modules-right = weather volume bitcoin eth cpu date powermenu
+
+tray-position = right
+tray-padding = 5
+
+[module/bspwm]
+type = internal/bspwm
+
+pin-workspaces = true
+
+label-focused = %name%
+label-focused-background = ${colors.background-alt}
+label-focused-underline= ${colors.primary}
+label-focused-padding = 2
+
+label-occupied = %name%
+label-occupied-padding = 2
+
+label-urgent = %name%!
+label-urgent-background = ${colors.alert}
+label-urgent-padding = 2
+
+label-empty = %name%
+label-empty-foreground = #747369
+label-empty-padding = 2
+
+[module/mpd]
+type = internal/mpd
+format-online = <label-song>  
+
+label-song-maxlen = 25
+label-song-ellipsis = true
+
+
+[module/bitcoin]
+type = custom/script
+interval = 10
+format = <label>
+format-prefix = " "
+tail = true
+format-prefix-foreground = ${colors.foreground-alt}
+format-underline = #ffcc66
+exec = ~/.config/polybar/bitcoin
+
+[module/filesystem]
+type = internal/fs
+interval = 25
+
+mount-0 = /
+
+format-underline = #f90000
+
+label-mounted = %mountpoint%:%percentage_used%%
+label-unmounted = %mountpoint% not mounted
+label-unmounted-foreground = ${colors.foreground-alt}
+
+
+[module/cpu]
+type = internal/cpu
+interval = 2
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+format-underline = #6699cc
+label = %percentage%%
+
+[module/memory]
+type = internal/memory
+interval = 2
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+format-underline = #4bffdc
+label = %percentage_used%%
+
+
+[module/eth]
+type = internal/network
+interface = enp4s0
+interval = 3.0
+
+format-connected-underline = #99cc99
+format-connected-prefix = " "
+label-connected = %local_ip%
+
+;format-disconnected = #f2777a
+format-disconnected = <label-disconnected>
+format-disconnected-underline = #f2777a
+label-disconnected = %ifname% disconnected
+;label-disconnected-foreground = ${colors.foreground-alt}
+
+[module/weather]
+type = custom/script
+interval = 10
+format = <label>
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+exec = ~/.config/polybar/weather
+
+[module/date]
+type = internal/date
+interval = 5
+
+date = 
+date-alt = "%m/%d/%y"
+
+time = " %a,%l:%M %P"
+time-alt = " %a, %l:%M %P"
+
+format-prefix = ""
+format-prefix-foreground = ${colors.foreground-alt}
+format-underline = #66cccc
+
+label = %time% %date%
+
+[module/pkg]
+type = custom/script
+interval = 1200
+format = <label>
+label = "%output:0:30%"
+exec = ~/.config/polybar/archpkg.sh
+
+[module/volume]
+type = internal/volume
+
+format-volume = <label-volume> <bar-volume>
+label-volume = 
+label-volume-foreground = ${root.foreground}
+
+format-muted-prefix = " "
+format-muted-foreground = ${colors.foreground-alt}
+label-muted = sound muted
+
+bar-volume-width = 10
+bar-volume-foreground-0 = #99cc99
+bar-volume-foreground-1 = #99cc99
+bar-volume-foreground-2 = #99cc99
+bar-volume-foreground-3 = #99cc99
+bar-volume-foreground-4 = #99cc99
+bar-volume-foreground-5 = #ffcc66
+bar-volume-foreground-6 = #f2777a
+bar-volume-gradient = true 
+bar-volume-indicator = |
+bar-volume-indicator-font = 2
+bar-volume-fill = ─
+bar-volume-fill-font = 2
+bar-volume-empty = ─
+bar-volume-empty-font = 2
+bar-volume-empty-foreground = ${colors.foreground-alt}
+
+[module/powermenu]
+type = custom/menu
+
+format-spacing = 1
+
+label-open = " " 
+label-open-foreground = ${colors.foreground}
+label-close = cancel
+label-close-foreground = ${colors.secondary}
+label-separator = |
+label-separator-foreground = ${colors.foreground}
+
+menu-0-0 = reboot
+menu-0-0-exec = menu-open-1
+menu-0-1 = power off
+menu-0-1-exec = menu-open-2
+menu-0-2 = sleep
+menu-0-2-exec = menu-open-3
+
+menu-1-0 = reboot
+menu-1-0-exec = systemctl reboot
+
+menu-2-0 = power off
+menu-2-0-exec = systemctl poweroff
+
+menu-3-0 = sleep
+menu-3-0-exec = systemctl suspend
+
+
+[settings]
+screenchange-reload = true
+compositing-foreground = over
+compositing-border = over
+
+[global/wm]
+margin-top = 5
+margin-bottom = 5
+
+; vim:ft=dosini

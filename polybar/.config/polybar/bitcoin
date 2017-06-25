@@ -1,0 +1,12 @@
+#!/usr/bin/env python3
+
+import requests
+
+r = requests.get('https://api.coinbase.com/v2/exchange-rates?currency=BTC')
+bitcoin = r.json()
+
+r = requests.get('https://api.coinbase.com/v2/exchange-rates?currency=ETH')
+eth = r.json()
+
+print('$%.2f, $%.2f' % (float(bitcoin['data']['rates']['USD']),
+                        float(eth['data']['rates']['USD'])))

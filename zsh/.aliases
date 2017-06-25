@@ -1,0 +1,44 @@
+alias zshconfig="$EDITOR ~/.zshrc"
+alias ohmyzsh="$EDITOR ~/.oh-my-zsh"
+
+
+alias sshocean="ssh noah@107.170.222.174"
+alias sshpurdue="ssh nrinehar@data.cs.purdue.edu"
+
+alias d="cd ~/Downloads"
+alias s="sudo"
+alias v="vim"
+alias p="python"
+alias n="node"
+alias l="less"
+alias pac="pacman"
+alias we="curl http://wttr.in/94598"
+alias ba="export back=$(pwd)"
+alias ck="cd $BACK"
+
+# Functions
+
+function mkcd() {
+  mkdir -p $1 && cd $1
+}
+
+function unpack () {
+  if [ -f $1 ] ; then
+      case $1 in
+          *.tar.bz2)   tar xvjf $1    ;;
+          *.tar.gz)    tar xvzf $1    ;;
+          *.bz2)       bunzip2 $1     ;;
+          *.rar)       rar x $1       ;;
+          *.gz)        gunzip $1      ;;
+          *.tar)       tar xvf $1     ;;
+          *.tbz2)      tar xvjf $1    ;;
+          *.tgz)       tar xvzf $1    ;;
+          *.zip)       unzip $1       ;;
+          *.Z)         uncompress $1  ;;
+          *.7z)        7z x $1        ;;
+          *)           echo "don't know how to extract '$1'..." ;;
+      esac
+  else
+      echo "'$1' is not a valid file!"
+  fi
+}

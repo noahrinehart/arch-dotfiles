@@ -1,0 +1,23 @@
+2017-05-30 12:58:02	theyoloboat	help identify
+2017-05-30 12:58:02	--	NickServ: ***** NickServ Help *****
+2017-05-30 12:58:02	--	NickServ: Help for IDENTIFY:
+2017-05-30 12:58:02	--	NickServ:  
+2017-05-30 12:58:02	--	NickServ: IDENTIFY identifies you with services so that you
+2017-05-30 12:58:02	--	NickServ: can perform general maintenance and commands that
+2017-05-30 12:58:02	--	NickServ: require you to be logged in.
+2017-05-30 12:58:02	--	NickServ:  
+2017-05-30 12:58:02	--	NickServ: Syntax: IDENTIFY <password>
+2017-05-30 12:58:02	--	NickServ:  
+2017-05-30 12:58:02	--	NickServ: You can also identify for another nick than you
+2017-05-30 12:58:02	--	NickServ: are currently using.
+2017-05-30 12:58:02	--	NickServ:  
+2017-05-30 12:58:02	--	NickServ: Syntax: IDENTIFY <nick> <password>
+2017-05-30 12:58:02	--	NickServ:  
+2017-05-30 12:58:02	--	NickServ: Example:
+2017-05-30 12:58:02	--	NickServ:     /msg NickServ IDENTIFY foo
+2017-05-30 12:58:02	--	NickServ:     /msg NickServ IDENTIFY jilles foo
+2017-05-30 12:58:02	--	NickServ: ***** End of Help *****
+2017-05-30 12:58:05	theyoloboat	q
+2017-05-30 12:58:06	--	NickServ: Invalid command. Use /msg NickServ help for a command listing.
+2017-05-30 13:01:56	theyoloboat	q
+2017-05-30 13:01:56	--	NickServ: Invalid command. Use /msg NickServ help for a command listing.
