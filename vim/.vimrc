@@ -129,3 +129,9 @@ map <c-f> :call JsBeautify()<cr>
 " python
 let python_highlight_all = 1
 " let g:pymode_python = 'python3'
+
+" better navigation
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>

@@ -1566,3 +1566,88 @@ Jun 25 15:01 : client: [14] opened from [::1]:43944
 Jun 25 15:01 : client: [14] closed
 Jun 25 15:01 : client: [15] opened from [::1]:43946
 Jun 25 15:01 : client: [15] closed
+Jun 25 23:27 : client: [16] opened from [::1]:40860
+Jun 25 23:27 : client: [16] closed
+Jun 25 23:29 : player: played "Electronic/nanobii/nanobii – RAVE, OK!.mp3"
+Jun 25 23:33 : player: played "Electronic/nanobii/nanobii – Arcade Bay.mp3"
+Jun 25 23:37 : player: played "Electronic/Marshmello/Marshmello_-_Alone.mp3"
+Jun 25 23:38 : client: [17] opened from [::1]:41548
+Jun 25 23:38 : client: [17] closed
+Jul 04 22:22 : player: played "Electronic/nanobii/nanobii – Hello.mp3"
+Jul 05 21:36 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 05 21:36 : client: [0] opened from 127.0.0.1:32902
+Jul 05 21:36 : client: [1] opened from 127.0.0.1:32904
+Jul 05 21:36 : client: [2] opened from 127.0.0.1:32906
+Jul 08 15:19 : player: played "Electronic/nanobii/nanobii – Hello.mp3"
+Jul 08 21:27 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 08 21:27 : client: [0] opened from 127.0.0.1:51970
+Jul 08 21:27 : client: [1] opened from 127.0.0.1:51972
+Jul 08 21:27 : client: [2] opened from 127.0.0.1:51974
+Jul 08 21:27 : client: [3] opened from [::1]:42130
+Jul 08 21:27 : player: played "Electronic/nanobii/nanobii – Hello.mp3"
+Jul 08 21:27 : client: [3] closed
+Jul 09 15:07 : client: [4] opened from [::1]:34516
+Jul 09 15:07 : client: [4] closed
+Jul 09 15:07 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 09 15:07 : client: [5] opened from [::1]:34518
+Jul 09 15:07 : client: [5] closed
+Jul 09 17:43 : client: [6] opened from [::1]:43000
+Jul 09 17:43 : client: [6] closed
+Jul 09 17:43 : client: [7] opened from [::1]:43038
+Jul 09 17:43 : client: [7] closed
+Jul 09 17:43 : update: removing Electronic/nanobii/nanobii – Hello.mp3
+Jul 09 17:43 : update: added Electronic/nanobii/Sunshine Express EP/nanobii - Sweet Dreams.mp3
+Jul 09 17:43 : update: added Electronic/nanobii/Sunshine Express EP/nanobii - JUNGLE☆FANTASY.mp3
+Jul 09 17:43 : update: added Electronic/nanobii/Sunshine Express EP/nanobii - Welcome Aboard.mp3
+Jul 09 17:43 : update: added Electronic/nanobii/Sunshine Express EP/nanobii - Farewell, Friends.mp3
+Jul 09 17:43 : update: added Electronic/nanobii/Sunshine Express EP/nanobii - You Are My World.mp3
+Jul 09 17:43 : update: added Electronic/nanobii/Sunshine Express EP/nanobii - UP&DOWN.mp3
+Jul 09 17:43 : update: added Electronic/nanobii/Sunshine Express EP/nanobii - Lost on Whale Island.mp3
+Jul 09 17:43 : update: added Electronic/nanobii/Sunshine Express EP/nanobii - Ocean Blue.mp3
+Jul 09 17:43 : update: added Electronic/nanobii/Sunshine Express EP/nanobii - Overworld.mp3
+Jul 09 17:43 : update: removing Electronic/nanobii/nanobii – Arcade Bay.mp3
+Jul 09 17:43 : update: removing Electronic/nanobii/nanobii – RAVE, OK!.mp3
+Jul 09 17:43 : update: removing Electronic/nanobii/nanobii – Fantasia.mp3
+Jul 09 17:43 : update: removing Electronic/nanobii/nanobii – Higher & Higher.mp3
+Jul 09 17:43 : update: removing Electronic/nanobii/nanobii – Anything 4 U.mp3
+Jul 09 17:43 : update: added Electronic/nanobii/Love Songs EP/Fantasia.mp3
+Jul 09 17:43 : update: added Electronic/nanobii/Love Songs EP/Anything 4 U.mp3
+Jul 09 17:43 : update: added Electronic/nanobii/Love Songs EP/Hello.mp3
+Jul 09 17:43 : update: added Electronic/nanobii/Love Songs EP/Higher & Higher.mp3
+Jul 09 17:43 : update: added Electronic/nanobii/Love Songs EP/Arcade Bay.mp3
+Jul 09 17:43 : update: added Electronic/nanobii/Love Songs EP/RAVE, OK!.mp3
+Jul 09 17:43 : client: [8] opened from [::1]:43040
+Jul 09 17:44 : client: [9] opened from [::1]:43092
+Jul 09 17:44 : client: [9] closed
+Jul 09 19:17 : player: played "Electronic/nanobii/Sunshine Express EP/nanobii - Welcome Aboard.mp3"
+Jul 09 19:18 : update: removing Electronic/nanobii/Sunshine Express EP/nanobii - Welcome Aboard.mp3
+Jul 09 19:18 : update: removing Electronic/nanobii/Sunshine Express EP/nanobii - Sweet Dreams.mp3
+Jul 09 19:18 : update: removing Electronic/nanobii/Sunshine Express EP/nanobii - UP&DOWN.mp3
+Jul 09 19:18 : update: removing Electronic/nanobii/Sunshine Express EP/nanobii - You Are My World.mp3
+Jul 09 19:18 : update: removing Electronic/nanobii/Sunshine Express EP/nanobii - Overworld.mp3
+Jul 09 19:18 : update: removing Electronic/nanobii/Sunshine Express EP/nanobii - Ocean Blue.mp3
+Jul 09 19:18 : update: removing Electronic/nanobii/Sunshine Express EP/nanobii - JUNGLE☆FANTASY.mp3
+Jul 09 19:18 : update: added Electronic/nanobii/Sunshine Express EP/You Are My World.mp3
+Jul 09 19:18 : update: removing Electronic/nanobii/Sunshine Express EP/nanobii - Lost on Whale Island.mp3
+Jul 09 19:18 : update: removing Electronic/nanobii/Sunshine Express EP/nanobii - Farewell, Friends.mp3
+Jul 09 19:18 : update: added Electronic/nanobii/Sunshine Express EP/JUNGLE☆FANTASY.mp3
+Jul 09 19:18 : update: added Electronic/nanobii/Sunshine Express EP/Overworld.mp3
+Jul 09 19:18 : update: added Electronic/nanobii/Sunshine Express EP/Ocean Blue.mp3
+Jul 09 19:18 : update: added Electronic/nanobii/Sunshine Express EP/Farewell, Friends.mp3
+Jul 09 19:18 : update: added Electronic/nanobii/Sunshine Express EP/Welcome Aboard.mp3
+Jul 09 19:18 : update: added Electronic/nanobii/Sunshine Express EP/Sweet Dreams.mp3
+Jul 09 19:18 : update: added Electronic/nanobii/Sunshine Express EP/UP&DOWN.mp3
+Jul 09 19:18 : update: added Electronic/nanobii/Sunshine Express EP/Lost on Whale Island.mp3
+Jul 09 19:18 : client: [8] closed
+Jul 09 19:19 : client: [10] opened from [::1]:46464
+Jul 09 19:19 : client: [10] closed
+Jul 09 19:19 : client: [11] opened from [::1]:46470
+Jul 09 19:19 : client: [11] closed
+Jul 09 19:22 : player: played "Electronic/nanobii/Sunshine Express EP/JUNGLE☆FANTASY.mp3"
+Jul 09 19:25 : client: [12] opened from [::1]:46974
+Jul 09 19:25 : client: [12] closed
+Jul 09 21:59 : player: played "Electronic/nanobii/Sunshine Express EP/Ocean Blue.mp3"
+Jul 09 22:00 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 09 22:00 : client: [0] opened from 127.0.0.1:35446
+Jul 09 22:00 : client: [1] opened from 127.0.0.1:35448
+Jul 09 22:00 : client: [2] opened from 127.0.0.1:35450
