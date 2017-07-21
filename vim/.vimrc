@@ -66,8 +66,9 @@ if (empty($TMUX))
 endif
 
 set t_Co=256
-colorscheme base16-eighties
 set background=dark
+let g:neodark#use_256color = 1
+colorscheme neodark
 
 " Remember last position
 if has("autocmd")
@@ -117,12 +118,15 @@ let g:easytags_resolve_links = 1
 let g:easytags_suppress_ctabs_warning = 1
 nmap <silent> <leader>b :TagbarToggle<CR>
 
+" racer
+let g:racer_cmd = "/home/nrinehart/.cargo/bin/racer"
+
 
 " base16
 let base16colorspace=256
 
 
- " JsBeutify
+" JsBeutify
 map <c-f> :call JsBeautify()<cr>
 
 

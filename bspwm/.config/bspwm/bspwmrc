@@ -7,7 +7,7 @@ wmname LG3D
 hsetroot -solid '#2d2d2d' &
 
 
-bspc monitor DVI-I-0 -d I II III
+bspc monitor DVI-I-1 -d I II III
 bspc monitor DP-0 -d IV V VI VII
 bspc monitor HDMI-0 -d VIII IX X
 

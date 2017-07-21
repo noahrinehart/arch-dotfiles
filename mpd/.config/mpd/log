@@ -1651,3 +1651,159 @@ Jul 09 22:00 : exception: OutputThread could not get realtime scheduling, contin
 Jul 09 22:00 : client: [0] opened from 127.0.0.1:35446
 Jul 09 22:00 : client: [1] opened from 127.0.0.1:35448
 Jul 09 22:00 : client: [2] opened from 127.0.0.1:35450
+Jul 13 21:25 : player: played "Electronic/nanobii/Sunshine Express EP/You Are My World.mp3"
+Jul 14 18:39 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 14 18:39 : client: [0] opened from 127.0.0.1:33126
+Jul 14 18:39 : client: [1] opened from 127.0.0.1:33128
+Jul 14 18:39 : client: [2] opened from 127.0.0.1:33130
+Jul 14 18:39 : client: [3] opened from [::1]:46176
+Jul 14 18:39 : player: played "Electronic/nanobii/Sunshine Express EP/You Are My World.mp3"
+Jul 14 18:39 : client: [3] closed
+Jul 14 22:52 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 14 22:52 : client: [0] opened from 127.0.0.1:40964
+Jul 14 22:52 : client: [1] opened from 127.0.0.1:40962
+Jul 14 22:52 : client: [2] opened from 127.0.0.1:40966
+Jul 15 10:57 : client: [1] closed
+Jul 15 10:57 : client: [0] closed
+Jul 15 10:57 : client: [2] closed
+Jul 15 10:57 : client: [3] opened from 127.0.0.1:46602
+Jul 15 10:57 : client: [4] opened from 127.0.0.1:46604
+Jul 15 10:57 : client: [5] opened from 127.0.0.1:46610
+Jul 15 11:08 : client: [3] closed
+Jul 15 11:08 : client: [4] closed
+Jul 15 11:08 : client: [5] closed
+Jul 15 11:08 : client: [6] opened from 127.0.0.1:47032
+Jul 15 11:08 : client: [7] opened from 127.0.0.1:47034
+Jul 15 11:08 : client: [8] opened from 127.0.0.1:47040
+Jul 15 11:34 : client: [6] closed
+Jul 15 11:34 : client: [7] closed
+Jul 15 11:34 : client: [8] closed
+Jul 15 11:34 : client: [9] opened from 127.0.0.1:47946
+Jul 15 11:34 : client: [10] opened from 127.0.0.1:47948
+Jul 15 11:34 : client: [11] opened from 127.0.0.1:47954
+Jul 15 11:34 : client: [10] closed
+Jul 15 11:34 : client: [11] closed
+Jul 15 11:34 : client: [9] closed
+Jul 15 11:34 : client: [12] opened from 127.0.0.1:47964
+Jul 15 11:34 : client: [13] opened from 127.0.0.1:47966
+Jul 15 11:36 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 15 11:36 : client: [0] opened from 127.0.0.1:43256
+Jul 15 11:36 : client: [1] opened from 127.0.0.1:43258
+Jul 15 11:37 : client: [0] closed
+Jul 15 11:37 : client: [1] closed
+Jul 15 11:37 : client: [2] opened from 127.0.0.1:43284
+Jul 15 11:37 : client: [3] opened from 127.0.0.1:43286
+Jul 15 11:39 : client: [3] closed
+Jul 15 11:39 : client: [2] closed
+Jul 15 11:39 : client: [4] opened from 127.0.0.1:43352
+Jul 15 11:39 : client: [5] opened from 127.0.0.1:43354
+Jul 15 11:41 : client: [5] closed
+Jul 15 11:41 : client: [4] closed
+Jul 15 11:41 : client: [6] opened from 127.0.0.1:43458
+Jul 15 11:41 : client: [7] opened from 127.0.0.1:43460
+Jul 15 11:42 : client: [6] closed
+Jul 15 11:42 : client: [7] closed
+Jul 15 11:42 : client: [8] opened from 127.0.0.1:43480
+Jul 15 11:42 : client: [9] opened from 127.0.0.1:43482
+Jul 15 11:43 : client: [8] closed
+Jul 15 11:43 : client: [9] closed
+Jul 15 11:43 : client: [10] opened from 127.0.0.1:43512
+Jul 15 11:43 : client: [11] opened from 127.0.0.1:43516
+Jul 15 11:43 : client: [11] closed
+Jul 15 11:43 : client: [10] closed
+Jul 15 11:43 : client: [12] opened from 127.0.0.1:43532
+Jul 15 11:43 : client: [13] opened from 127.0.0.1:43534
+Jul 15 11:46 : client: [13] closed
+Jul 15 11:46 : client: [12] closed
+Jul 15 11:46 : client: [14] opened from 127.0.0.1:43636
+Jul 15 11:46 : client: [15] opened from 127.0.0.1:43638
+Jul 15 11:47 : client: [15] closed
+Jul 15 11:47 : client: [14] closed
+Jul 15 11:47 : client: [16] opened from 127.0.0.1:43656
+Jul 15 11:47 : client: [17] opened from 127.0.0.1:43658
+Jul 15 11:47 : client: [18] opened from 127.0.0.1:43660
+Jul 15 11:47 : client: [18] closed
+Jul 15 11:47 : client: [16] closed
+Jul 15 11:47 : client: [17] closed
+Jul 15 11:47 : client: [19] opened from 127.0.0.1:43672
+Jul 15 11:47 : client: [20] opened from 127.0.0.1:43674
+Jul 15 11:47 : client: [21] opened from 127.0.0.1:43676
+Jul 15 11:48 : client: [19] closed
+Jul 15 11:48 : client: [20] closed
+Jul 15 11:48 : client: [21] closed
+Jul 15 11:48 : client: [22] opened from 127.0.0.1:43718
+Jul 15 11:48 : client: [23] opened from 127.0.0.1:43720
+Jul 15 11:48 : client: [24] opened from 127.0.0.1:43722
+Jul 15 13:10 : client: [25] opened from [::1]:54270
+Jul 15 13:10 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 15 13:10 : client: [26] opened from [::1]:54278
+Jul 15 13:10 : client: [26] closed
+Jul 15 13:10 : client: [27] opened from [::1]:54284
+Jul 15 13:10 : client: [27] closed
+Jul 15 13:10 : client: [28] opened from [::1]:54288
+Jul 15 13:10 : client: [28] closed
+Jul 15 13:10 : client: [29] opened from [::1]:54292
+Jul 15 13:10 : client: [29] closed
+Jul 15 13:10 : client: [30] opened from [::1]:54298
+Jul 15 13:10 : client: [30] closed
+Jul 15 13:10 : client: [31] opened from [::1]:54302
+Jul 15 13:10 : client: [31] closed
+Jul 15 13:10 : client: [32] opened from [::1]:54306
+Jul 15 13:10 : client: [32] closed
+Jul 15 13:10 : client: [33] opened from [::1]:54314
+Jul 15 13:10 : player: played "Electronic/nanobii/Sunshine Express EP/JUNGLE☆FANTASY.mp3"
+Jul 15 13:10 : client: [33] closed
+Jul 15 13:11 : client: [25] closed
+Jul 15 21:31 : client: [24] closed
+Jul 15 21:31 : client: [22] closed
+Jul 15 21:32 : client: [23] closed
+Jul 15 21:32 : avahi: Client Disconnected, will reconnect shortly
+Jul 15 21:32 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Jul 15 22:53 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 15 22:53 : client: [0] opened from 127.0.0.1:52734
+Jul 15 22:53 : client: [1] opened from 127.0.0.1:52736
+Jul 15 22:53 : client: [2] opened from 127.0.0.1:52738
+Jul 16 22:36 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 16 22:36 : client: [0] opened from 127.0.0.1:49250
+Jul 16 22:36 : client: [1] opened from 127.0.0.1:49252
+Jul 16 22:36 : client: [2] opened from 127.0.0.1:49254
+Jul 18 19:08 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 18 19:08 : client: [0] opened from 127.0.0.1:54002
+Jul 18 19:08 : client: [1] opened from 127.0.0.1:54004
+Jul 18 19:08 : client: [2] opened from 127.0.0.1:54006
+Jul 18 22:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 18 22:33 : client: [0] opened from 127.0.0.1:58456
+Jul 18 22:33 : client: [1] opened from 127.0.0.1:58454
+Jul 18 22:33 : client: [2] opened from 127.0.0.1:58458
+Jul 19 18:52 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 19 18:53 : client: [0] opened from 127.0.0.1:57694
+Jul 19 18:53 : client: [1] opened from 127.0.0.1:57696
+Jul 19 18:53 : client: [2] opened from 127.0.0.1:57698
+Jul 19 18:53 : client: [2] closed
+Jul 19 18:53 : client: [0] closed
+Jul 19 18:53 : client: [1] closed
+Jul 19 18:53 : client: [3] opened from 127.0.0.1:57724
+Jul 19 18:53 : client: [4] opened from 127.0.0.1:57726
+Jul 19 18:53 : client: [5] opened from 127.0.0.1:57728
+Jul 19 18:53 : client: [5] closed
+Jul 19 18:53 : client: [4] closed
+Jul 19 18:53 : client: [3] closed
+Jul 19 18:54 : client: [6] opened from 127.0.0.1:57742
+Jul 19 18:54 : client: [7] opened from 127.0.0.1:57744
+Jul 19 18:54 : client: [8] opened from 127.0.0.1:57746
+Jul 19 18:54 : client: [8] closed
+Jul 19 18:54 : client: [7] closed
+Jul 19 18:54 : client: [6] closed
+Jul 19 18:54 : client: [9] opened from 127.0.0.1:57754
+Jul 19 18:54 : client: [10] opened from 127.0.0.1:57756
+Jul 19 18:54 : client: [11] opened from 127.0.0.1:57758
+Jul 20 21:21 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 20 21:21 : client: [0] opened from 127.0.0.1:55530
+Jul 20 21:21 : client: [1] opened from 127.0.0.1:55532
+Jul 20 21:21 : client: [2] opened from 127.0.0.1:55534
+Jul 20 21:44 : client: [0] closed
+Jul 20 21:44 : client: [1] closed
+Jul 20 21:44 : client: [2] closed
+Jul 20 21:44 : client: [3] opened from 127.0.0.1:57052
+Jul 20 21:44 : client: [4] opened from 127.0.0.1:57054
+Jul 20 21:44 : client: [5] opened from 127.0.0.1:57058

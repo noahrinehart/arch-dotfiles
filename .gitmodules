@@ -67,3 +67,12 @@
 [submodule "vim/.vim/bundle/YouCompleteMe"]
 	path = vim/.vim/bundle/YouCompleteMe
 	url = git@github.com:Valloric/YouCompleteMe.git
+[submodule "vim/.vim/bundle/vim-racer"]
+	path = vim/.vim/bundle/vim-racer
+	url = https://github.com/racer-rust/vim-racer.git
+[submodule "vim/.vim/bundle/FlatColor"]
+	path = vim/.vim/bundle/FlatColor
+	url = git@github.com:MaxSt/FlatColor.git
+[submodule "vim/.vim/bundle/neodark.vim"]
+	path = vim/.vim/bundle/neodark.vim
+	url = git@github.com:KeitaNakamura/neodark.vim.git
