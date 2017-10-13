@@ -1,18 +1,11 @@
-if &compatible
-    set nocompatible
-endif
-
+set nocompatible
 filetype off
 
 " Plugins
 execute pathogen#infect()
 
 syntax on
-
 filetype plugin indent on
-
-
-let mapleader = ","
 
 set modelines=0
 
@@ -23,7 +16,6 @@ set visualbell
 set encoding=utf-8
 
 set wrap
-" set textwidth=79
 set formatoptions=tcqrn1
 set autoindent
 set tabstop=2
@@ -34,18 +26,9 @@ set noshiftround
 
 set scrolloff=3
 set backspace=indent,eol,start
-set matchpairs+=<:>
-
-
-nnoremap j gj
-nnoremap k gk
-
-nnoremap ; :
 
 set hidden
-
 set ttyfast
-
 set laststatus=2
 
 set showmode
@@ -56,38 +39,53 @@ set incsearch
 set ignorecase
 set smartcase
 set showmatch
+set mouse=
+
+set undofile
+set undodir=$HOME/.vim/undo
+
+if (empty($TMUX))
+  if (has("termguicolors"))
+    set termguicolors
+  endif
+endif
+
+" Theme
+set t_Co=256
+colorscheme onedark
+let g:onedark_termcolors=256
+let g:onedark_terminal_italics=1
+let g:airline_theme='onedark'
+let g:airline_powerline_fonts = 1
 
 hi clear SignColumn
 
-if (empty($TMUX))
-    if (has("termguicolors"))
-        set termguicolors
-    endif
-endif
+" Keybinds
+let mapleader = ","
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+nnoremap ; :
 
-set t_Co=256
-set background=dark
-let g:neodark#use_256color = 1
-colorscheme neodark
+
+nnoremap <F5> :UndotreeToggle<CR>
+nnoremap <leader>t :TagbarToggle<CR>
+nnoremap <leader>f :NERDTreeToggle<CR>
+
 
 " Remember last position
 if has("autocmd")
   au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
 endif
 
+autocmd BufNewFile,Bufread *.s set ft=nasm
 
-" Nerd tree
-nmap <silent> <leader>t :NERDTreeTabsToggle<CR>
+" Plugin settings
+" YouCompleteMe
+let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/.ycm_extra_conf.py'
 
-
-" syntastic
-let g:syntastic_error_symbol = '✘'
-let g:syntastic_warning_symbol = "▲"
-augroup mySyntastic
-  au!
-  au FileType tex let b:syntastic_mode = "passive"
-augroup END
-
+" Syntastic
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
@@ -96,46 +94,5 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
- " let g:syntastic_c_include_dirs = ['.../include', '../include', 'include']
-autocmd BufNewFile,BufRead *.asm set filetype=nasm
+let g:syntastic_rust_checkers = ['cargo']
 
-" delimitMate
-let delimitMate_expand_cr = 1
-augroup mydelimitMate
-    au!
-    au Filetype python let b:delimitMate_nesting_quotes = ['"', "'"]
-augroup END
-
-" superman
-noremap K :SuperMan <cword><CR>
-
-" tags
-set tags=./tags;,~/.vimtags
-let g:easytags_events = ['BufReadPost', 'BufWritePost']
-let g:easytags_async = 1
-let g:easytags_dynamic_files = 2
-let g:easytags_resolve_links = 1
-let g:easytags_suppress_ctabs_warning = 1
-nmap <silent> <leader>b :TagbarToggle<CR>
-
-" racer
-let g:racer_cmd = "/home/nrinehart/.cargo/bin/racer"
-
-
-" base16
-let base16colorspace=256
-
-
-" JsBeutify
-map <c-f> :call JsBeautify()<cr>
-
-
-" python
-let python_highlight_all = 1
-" let g:pymode_python = 'python3'
-
-" better navigation
-nnoremap <C-J> <C-W><C-J>
-nnoremap <C-K> <C-W><C-K>
-nnoremap <C-L> <C-W><C-L>
-nnoremap <C-H> <C-W><C-H>
