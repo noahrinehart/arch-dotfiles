@@ -1,5 +1,4 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/home/nrinehart/.config'
-let g:netrw_dirhist_2='/home/nrinehart/.config/gtk-3.0'
-let g:netrw_dirhist_3='/home/nrinehart/.vim'
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/home/noah/Developer/discovery/src/11-usart'
+let g:netrw_dirhist_2='/home/noah/Developer/discovery/src/11-usart/src'

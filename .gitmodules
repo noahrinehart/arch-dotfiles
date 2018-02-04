@@ -76,3 +76,6 @@
 [submodule "vim/.vim/bundle/neodark.vim"]
 	path = vim/.vim/bundle/neodark.vim
 	url = git@github.com:KeitaNakamura/neodark.vim.git
+[submodule "vim/.vim/bundle/onedark.vim"]
+	path = vim/.vim/bundle/onedark.vim
+	url = https://github.com/joshdick/onedark.vim.git

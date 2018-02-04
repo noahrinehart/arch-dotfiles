@@ -1,0 +1,5 @@
+[user]
+	email = rinehart.noah@gmail.com
+	name = Noah Rinehart
+[credential]
+	helper = cache --timeout=3600
