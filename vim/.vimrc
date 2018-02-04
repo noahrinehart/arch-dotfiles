@@ -51,6 +51,9 @@ set ignorecase
 set smartcase
 set showmatch
 
+set undodir=$HOME/.vim/undo
+set undofile
+
 hi clear SignColumn
 set termguicolors
 
